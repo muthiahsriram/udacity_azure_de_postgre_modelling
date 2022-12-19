@@ -1,3 +1,6 @@
+"""
+one place that contains all the sql queries in the etl pipeline
+"""
 # DROP TABLES
 
 songplay_table_drop = "DROP TABLE IF EXISTS songplays"
