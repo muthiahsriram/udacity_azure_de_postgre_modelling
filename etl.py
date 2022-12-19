@@ -1,3 +1,6 @@
+"""
+etl.py script outlining the stl process using the sql queries in the sql_queries.py file
+"""
 import os
 import glob
 import psycopg2
