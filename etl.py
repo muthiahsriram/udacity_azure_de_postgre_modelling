@@ -79,6 +79,7 @@ def process_log_file(cur, filepath):
     df["month"] = df["ts"].dt.month
     df["year"] = df["ts"].dt.year
     df["weekday"] = df["ts"].dt.weekday
+    df = df.sort_values(by=["ts"])
     # t =
 
     # insert time data records
